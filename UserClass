@@ -1,0 +1,21 @@
+api = "https://dummyjson.com/users"
+
+class User {
+    constructor(id, firstName, lastName, email){
+        this.id = id
+        this.firstName = firstName
+        this.lastName = lastName
+        this.email = email
+
+    }
+}
+
+function displayInfo(){
+    console.log(`User ID: ${User.id}`)
+    console.log(`User First Name: ${User.firstName}`)
+    console.log(`User Last Name: ${User.lastName}`)
+    console.log(`User Email: ${User.email}`)
+
+}
+
+displayInfo()
